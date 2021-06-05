@@ -1,0 +1,114 @@
+/* 全体
+------------------------------- */
+li{
+    list-style: none;
+}
+
+h1 {
+    font-family: "Yu Mincho", 'Arial Narrow', Arial, sans-serif;
+}
+
+body,h1,ul,p{
+    margin: 0%;
+}
+
+div.a {
+    width:1022px;
+    }
+
+/* ヘッダー
+------------------------------- */
+
+
+.header{
+    background-color:rgb(118, 108, 255);
+    height: 100px;
+}
+
+.header h1{
+    font-size: 30px;
+    float: left;
+    padding:20px 20px; 
+}
+
+/* main
+------------------------------- */
+.main {
+    background-color: rgb(238, 239, 253);
+    height: 500px;
+}
+
+/* main.contents1
+------------------------------- */
+.contents1{
+    height: 270px;
+    
+}
+
+.contents1 p{
+    float: left;
+    font-size: 20px;
+    padding: 100px 40px;
+}
+
+/* main.contents2
+------------------------------- */
+.box{
+    width: 400px;
+    height: 88px;
+}
+
+.box2{
+    width: 400px;
+    height: 22px;
+}
+
+.box3{
+    resize: none;
+}
+
+.textarea{
+    padding: 20px ;
+}
+
+/* member.php
+------------------------------- */
+.explain ul{
+    padding: 10px;
+}
+
+.explain li{
+    padding: 10px;
+}
+
+.explain img{
+    float: left;
+}
+
+.explain p{
+    padding: 37px;
+}
+
+/* apply.php
+------------------------------- */
+.mainap{
+    background-color: rgb(238, 239, 253);
+    padding: 30px;
+}
+
+.mainap form,p{
+    padding: 30px;
+}
+
+/* フッター
+------------------------------- */
+footer {
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
